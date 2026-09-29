@@ -37,10 +37,6 @@ cd <nombre-del-repositorio>
 jupyter notebook
 ```
 
-Abre el cuaderno del problema que quieras y ejecuta las celdas en orden. La última celda reproduce la animación dentro del propio cuaderno (`HTML(anim.to_jshtml())`).
-
-Los parámetros de la animación (`T_anim`, `fps`, `speed`, `trail_s`) se pueden modificar al inicio de la celda de animación.
-
 ## Estructura del repositorio
 
 ```
