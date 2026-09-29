@@ -12,9 +12,6 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 ---
 
 ## Problema 1 — Péndulo doble
-
-
-
 ### Enunciado
 
 Un péndulo doble está formado por dos masas puntuales $m_1$ y $m_2$ unidas mediante varillas rígidas y sin masa de longitudes $l_1$ y $l_2$. La primera varilla cuelga de un pivote fijo situado en el origen y la segunda cuelga de la masa $m_1$. El sistema se mueve en un plano vertical bajo la acción de la gravedad $\vec g$. Los ángulos $\theta_1$ y $\theta_2$ que forman las varillas con la vertical se toman como coordenadas generalizadas.
@@ -24,9 +21,6 @@ Un péndulo doble está formado por dos masas puntuales $m_1$ y $m_2$ unidas med
 ---
 
 ## Problema 2 — Péndulo con soporte en movimiento circular
-
-
-
 ### Enunciado
 
 El punto de donde cuelga un péndulo simple de longitud $b$ se mueve a lo largo de un círculo sin masa de radio $a$ que gira sobre sí mismo con una velocidad angular constante $\omega$. El ángulo $\theta$ es el que forma el hilo con la vertical, según la figura.
