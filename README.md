@@ -8,6 +8,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 |----|----------|----------|
 | 1 | [Péndulo doble](#problema-1--péndulo-doble) | [`01b_DoublePendulum.ipynb`](01b_DoublePendulum.ipynb) |
 | 2 | [Péndulo con soporte en movimiento circular](#problema-2--péndulo-con-soporte-en-movimiento-circular) | [`02_CircularMotionPendulum.ipynb`](02_CircularMotionPendulum.ipynb) |
+| 3 | [Masa en el borde de una rueda](#problema-3--masa-en-el-borde-de-una-rueda) | [`03_MassInsideWeel.ipynb`](03_MassInsideWeel.ipynb) |
 
 ---
 
@@ -29,6 +30,15 @@ El punto de donde cuelga un péndulo simple de longitud $b$ se mueve a lo largo 
 
 ---
 
+## Problema 3 — Masa en el borde de una rueda
+### Enunciado
+
+Consideramos una masa $m$ que está fija en el borde de una rueda de radio $R$ que rueda sin deslizar respecto al suelo. Despreciamos la masa de la rueda, excepto por una masa $M$ situada en su centro. El sistema está sometido a la gravedad terrestre y la rueda se mueve en un plano vertical.
+
+![Masa en el borde de una rueda](https://i.imgur.com/SPlbwRR.png)
+
+---
+
 ## Uso
 
 ```bash
@@ -44,5 +54,6 @@ jupyter notebook
 ├── README.md
 ├── 01a_DoublePendulum.m
 ├── 01b_DoublePendulum.ipynb
-└── 02_CircularMotionPendulum.ipynb
+├── 02_CircularMotionPendulum.ipynb
+└── 03_MassInsideWeel.ipynb
 ```
