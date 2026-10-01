@@ -45,27 +45,6 @@ Consideramos un alambre cuya curva verifica la ecuación $z(x)=b\,(x/a)^\gamma$,
 
 ![Cuenta en un alambre giratorio](https://i.imgur.com/1QnBX14.png)
 
-a) Justificar el motivo por el que el sistema tiene un único grado de libertad.
-b) Considerando a $x$ como coordenada generalizada, escribir el Lagrangiano del sistema.
-c) ¿Se verifica $H=E$? ¿Se conserva $H$? ¿Se conserva $E$?
-d) Usando la ecuación de Euler-Lagrange, demostrar que la ecuación de movimiento se escribe
-$\ddot x\,(1+(z')^2)+\dot x^2 z'' z'-\omega^2 x+g z'=0$, donde $z'$ y $z''$ son la derivada primera y segunda de $z(x)$ respecto a $x$.
-e) Posición de equilibrio $x=x_0$. Demostrar que
-$x_0=a\left(\dfrac{\omega^2a^2}{\gamma g b}\right)^{\frac{1}{\gamma-2}}$.
-
-### Resumen de la resolución
-
-- $L=\tfrac12 m\left[\dot x^2(1+z'^2)+\omega^2x^2\right]-mgz(x)$
-- $H=p\dot x-L=\tfrac12 m\dot x^2(1+z'^2)-\tfrac12 m\omega^2x^2+mgz$ **se conserva** ($\partial L/\partial t=0$), pero $H\neq E$ ya que $E-H=m\omega^2x^2$; $E$ **no** se conserva (el alambre realiza trabajo).
-- Equilibrio: $\omega^2x_0=g\,z'(x_0)$. Es estable si $\gamma>2$ (con $\Omega^2=\omega^2(\gamma-2)/(1+z'^2)$) e inestable si $1<\gamma<2$; $\gamma=2$ es el caso crítico.
-- El cuaderno deduce todo con `sympy` (incluida la ecuación de Euler-Lagrange), integra con `scipy.integrate.solve_ivp` (DOP853) y dispone de funciones para graficar $L$, $H$, $E$ y para animar el movimiento.
-
----
-
-## Uso
-
-Dependencias: `numpy`, `sympy`, `scipy`, `matplotlib`, `jupyter`.
-
 ```bash
 git clone <URL-de-este-repositorio>
 cd <nombre-del-repositorio>
