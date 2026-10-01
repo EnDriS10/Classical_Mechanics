@@ -45,7 +45,8 @@ Consideramos un alambre cuya curva verifica la ecuación $z(x)=b\,(x/a)^\gamma$,
 
 ![Cuenta en un alambre giratorio](https://i.imgur.com/1QnBX14.png)
 
-```
+## Uso
+
 ```bash
 git clone <URL-de-este-repositorio>
 cd <nombre-del-repositorio>
