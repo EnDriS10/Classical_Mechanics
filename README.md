@@ -10,6 +10,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 2 | [Péndulo con soporte en movimiento circular](#problema-2--péndulo-con-soporte-en-movimiento-circular) | [`02_CircularMotionPendulum.ipynb`](02_CircularMotionPendulum.ipynb) |
 | 3 | [Masa en el borde de una rueda](#problema-3--masa-en-el-borde-de-una-rueda) | [`03_MassInsideWeel.ipynb`](03_MassInsideWeel.ipynb) |
 | 4 | [Cuenta en un alambre giratorio](#problema-4--cuenta-en-un-alambre-giratorio) | [`04_ParticlePathZ.ipynb`](04_ParticlePathZ.ipynb) |
+| 5 | [Masa en un muelle en un plano vertical](#problema-5--masa-en-un-muelle-en-un-plano-vertical) | [`05_MassOnSpringVerticalPlane.ipynb`](05_MassOnSpringVerticalPlane.ipynb) |
 
 ---
 
@@ -45,6 +46,13 @@ Consideramos un alambre cuya curva verifica la ecuación $z(x)=b\,(x/a)^\gamma$,
 
 ![Cuenta en un alambre giratorio](https://i.imgur.com/1QnBX14.png)
 
+## Problema 5 — Masa en un muelle en un plano vertical
+### Enunciado
+
+Un muelle sin masa y de longitud en reposo $l_0$ tiene en un extremo una masa $m$ y del otro está fijado al techo. El movimiento tiene lugar en un plano vertical.
+
+![Masa en un muelle en un plano vertical](https://i.imgur.com/1uUs2SX.png)
+
 ## Uso
 
 ```bash
@@ -62,5 +70,6 @@ jupyter notebook
 ├── 01b_DoublePendulum.ipynb
 ├── 02_CircularMotionPendulum.ipynb
 ├── 03_MassInsideWeel.ipynb
-└── 04_ParticlePathZ.ipynb
+├── 04_ParticlePathZ.ipynb
+└── 05_MassOnSpringVerticalPlane.ipynb
 ```
