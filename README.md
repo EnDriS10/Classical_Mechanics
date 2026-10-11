@@ -11,6 +11,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 3 | [Masa en el borde de una rueda](#problema-3--masa-en-el-borde-de-una-rueda) | [`03_MassInsideWeel.ipynb`](03_MassInsideWeel.ipynb) |
 | 4 | [Cuenta en un alambre giratorio](#problema-4--cuenta-en-un-alambre-giratorio) | [`04_ParticlePathZ.ipynb`](04_ParticlePathZ.ipynb) |
 | 5 | [Masa en un muelle en un plano vertical](#problema-5--masa-en-un-muelle-en-un-plano-vertical) | [`05_MassOnSpringVerticalPlane.ipynb`](05_MassOnSpringVerticalPlane.ipynb) |
+| 6 | [Regulador con muelle](#problema-6--regulador-con-muelle) | [`06_CrazyRegulator.ipynb`](06_CrazyRegulator.ipynb) |
 
 ---
 
@@ -53,6 +54,13 @@ Un muelle sin masa y de longitud en reposo $l_0$ tiene en un extremo una masa $m
 
 ![Masa en un muelle en un plano vertical](https://i.imgur.com/1uUs2SX.png)
 
+## Problema 6 — Regulador con muelle
+### Enunciado
+
+Consideramos un regulador formado por dos bolas de masa $m$. Cuatro varillas articuladas de longitud $l$ y de masa nula se unen en un punto fijo $O$ y en un anillo $A$ que puede deslizarse a lo largo de un eje vertical. Un muelle de constante elástica $k$ y de longitud natural $l_0$ une el punto fijo $O$ y el anillo $A$. El sistema gira alrededor del eje vertical con velocidad angular $\omega$ constante. Se puede despreciar el rozamiento.
+
+![Regulador con muelle](https://i.imgur.com/DfkZcBw.png)
+
 ## Uso
 
 ```bash
@@ -71,5 +79,6 @@ jupyter notebook
 ├── 02_CircularMotionPendulum.ipynb
 ├── 03_MassInsideWeel.ipynb
 ├── 04_ParticlePathZ.ipynb
-└── 05_MassOnSpringVerticalPlane.ipynb
+├── 05_MassOnSpringVerticalPlane.ipynb
+└── 06_CrazyRegulator.ipynb
 ```
