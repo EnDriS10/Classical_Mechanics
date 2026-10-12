@@ -12,6 +12,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 4 | [Cuenta en un alambre giratorio](#problema-4--cuenta-en-un-alambre-giratorio) | [`04_ParticlePathZ.ipynb`](04_ParticlePathZ.ipynb) |
 | 5 | [Masa en un muelle en un plano vertical](#problema-5--masa-en-un-muelle-en-un-plano-vertical) | [`05_MassOnSpringVerticalPlane.ipynb`](05_MassOnSpringVerticalPlane.ipynb) |
 | 6 | [Regulador con muelle](#problema-6--regulador-con-muelle) | [`06_CrazyRegulator.ipynb`](06_CrazyRegulator.ipynb) |
+| 7 | [Partícula sobre una superficie cilíndrica](#problema-7--partícula-sobre-una-superficie-cilíndrica) | [`07_HamiltonianCylinder.ipynb`](07_HamiltonianCylinder.ipynb) |
 
 ---
 
@@ -61,6 +62,13 @@ Consideramos un regulador formado por dos bolas de masa $m$. Cuatro varillas art
 
 ![Regulador con muelle](https://i.imgur.com/DfkZcBw.png)
 
+## Problema 7 — Partícula sobre una superficie cilíndrica
+### Enunciado
+
+Utilizar el formalismo Hamiltoniano para encontrar las ecuaciones de movimiento de una partícula obligada a moverse sobre una superficie cilíndrica de ecuación $x^2+y^2=R^2$. La partícula está sometida a una fuerza, $\vec F=-k\vec r$, dirigida hacia el origen y de módulo proporcional a $r$.
+
+![Partícula sobre una superficie cilíndrica](https://i.imgur.com/uBkxn8B.png)
+
 ## Uso
 
 ```bash
@@ -80,5 +88,6 @@ jupyter notebook
 ├── 03_MassInsideWeel.ipynb
 ├── 04_ParticlePathZ.ipynb
 ├── 05_MassOnSpringVerticalPlane.ipynb
-└── 06_CrazyRegulator.ipynb
+├── 06_CrazyRegulator.ipynb
+└── 07_HamiltonianCylinder.ipynb
 ```
