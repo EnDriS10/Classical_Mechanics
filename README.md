@@ -80,8 +80,6 @@ Escribir las ecuaciones de Hamilton para una masa $m$ obligada a moverse únicam
 - (c) La masa se lanza desde $x=X$ con momento inicial $p=P$: $x_0=X,\ p_0=P$.
 - (d) La masa se lanza desde $x=0$ con momento inicial $p=P$: $x_0=0,\ p_0=P$.
 
-![Espacio de fases de una masa en caída libre](https://i.imgur.com/XXXXXXX.png)
-
 ## Uso
 
 ```bash
