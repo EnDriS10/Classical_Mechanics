@@ -13,6 +13,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 5 | [Masa en un muelle en un plano vertical](#problema-5--masa-en-un-muelle-en-un-plano-vertical) | [`05_MassOnSpringVerticalPlane.ipynb`](05_MassOnSpringVerticalPlane.ipynb) |
 | 6 | [Regulador con muelle](#problema-6--regulador-con-muelle) | [`06_CrazyRegulator.ipynb`](06_CrazyRegulator.ipynb) |
 | 7 | [Partícula sobre una superficie cilíndrica](#problema-7--partícula-sobre-una-superficie-cilíndrica) | [`07_HamiltonianCylinder.ipynb`](07_HamiltonianCylinder.ipynb) |
+| 8 | [Espacio de fases de una masa en caída libre](#problema-8--espacio-de-fases-de-una-masa-en-caída-libre) | [`08_FreeFallPhaseSpace.ipynb`](08_FreeFallPhaseSpace.ipynb) |
 
 ---
 
@@ -69,6 +70,18 @@ Utilizar el formalismo Hamiltoniano para encontrar las ecuaciones de movimiento 
 
 ![Partícula sobre una superficie cilíndrica](https://i.imgur.com/uBkxn8B.png)
 
+## Problema 8 — Espacio de fases de una masa en caída libre
+### Enunciado
+
+Escribir las ecuaciones de Hamilton para una masa $m$ obligada a moverse únicamente en la dirección vertical y sujeta a la atracción gravitacional. Utilizar la coordenada $x$, medida hacia abajo desde un origen convenientemente escogido, y su momento conjugado $p$. Describir las órbitas en el espacio de fase y en particular obtener esquemáticamente las órbitas desde un punto inicial en $t_0=0$ hasta un tiempo posterior $t$ para las siguientes condiciones iniciales:
+
+- (a) La masa se suelta en reposo desde $x=0$: $x_0=p_0=0$.
+- (b) La masa se suelta en reposo desde $x=X$: $x_0=X,\ p_0=0$.
+- (c) La masa se lanza desde $x=X$ con momento inicial $p=P$: $x_0=X,\ p_0=P$.
+- (d) La masa se lanza desde $x=0$ con momento inicial $p=P$: $x_0=0,\ p_0=P$.
+
+![Espacio de fases de una masa en caída libre](https://i.imgur.com/XXXXXXX.png)
+
 ## Uso
 
 ```bash
@@ -89,5 +102,6 @@ jupyter notebook
 ├── 04_ParticlePathZ.ipynb
 ├── 05_MassOnSpringVerticalPlane.ipynb
 ├── 06_CrazyRegulator.ipynb
-└── 07_HamiltonianCylinder.ipynb
+├── 07_HamiltonianCylinder.ipynb
+└── 08_FreeFallPhaseSpace.ipynb
 ```
