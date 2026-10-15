@@ -81,14 +81,12 @@ Escribir las ecuaciones de Hamilton para una masa $m$ obligada a moverse únicam
 - (c) La masa se lanza desde $x=X$ con momento inicial $p=P$: $x_0=X,\ p_0=P$.
 - (d) La masa se lanza desde $x=0$ con momento inicial $p=P$: $x_0=0,\ p_0=P$.
 
-![Espacio de fases de una masa en caída libre](https://i.imgur.com/XXXXXXX.png)
 
 ## Problema 9 — Cuenta en un alambre helicoidal
 ### Enunciado
 
 Consideramos un alambre, que permanece fijo, de forma helicoidal, $x=a\cos\theta$, $y=a\sin\theta$, $z=b\theta$, donde $\theta$ es un parámetro real y $a$, $b$ son constantes positivas. El eje $z$ está dirigido verticalmente hacia arriba. Una cuenta de masa $m$, sometida a la gravedad, puede deslizarse libremente en el alambre.
 
-![Cuenta en un alambre helicoidal](https://i.imgur.com/XXXXXXX.png)
 
 ## Uso
 
