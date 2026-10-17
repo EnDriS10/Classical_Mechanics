@@ -18,6 +18,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 10 | [Dos masas unidas por una cuerda y un cono](#problema-10--dos-masas-unidas-por-una-cuerda-y-un-cono) | [`10_ConeStringMasses.ipynb`](10_ConeStringMasses.ipynb) |
 | 11 | [Partícula sobre una elipse con muelle](#problema-11--partícula-sobre-una-elipse-con-muelle) | [`11_EllipseSpring.ipynb`](11_EllipseSpring.ipynb) |
 | 12 | [Partícula sobre un paraboloide](#problema-12--partícula-sobre-un-paraboloide) | [`12_ParaboloidLagrange.ipynb`](12_ParaboloidLagrange.ipynb) |
+| 13 | [Cuentas unidas por un muelle en un aro giratorio](#problema-13--cuentas-unidas-por-un-muelle-en-un-aro-giratorio) | [`13_BeadsRotatingHoop.ipynb`](13_BeadsRotatingHoop.ipynb) |
 
 ---
 
@@ -84,14 +85,10 @@ Escribir las ecuaciones de Hamilton para una masa $m$ obligada a moverse únicam
 - (c) La masa se lanza desde $x=X$ con momento inicial $p=P$: $x_0=X,\ p_0=P$.
 - (d) La masa se lanza desde $x=0$ con momento inicial $p=P$: $x_0=0,\ p_0=P$.
 
-![Espacio de fases de una masa en caída libre](https://i.imgur.com/XXXXXXX.png)
-
 ## Problema 9 — Cuenta en un alambre helicoidal
 ### Enunciado
 
 Consideramos un alambre, que permanece fijo, de forma helicoidal, $x=a\cos\theta$, $y=a\sin\theta$, $z=b\theta$, donde $\theta$ es un parámetro real y $a$, $b$ son constantes positivas. El eje $z$ está dirigido verticalmente hacia arriba. Una cuenta de masa $m$, sometida a la gravedad, puede deslizarse libremente en el alambre.
-
-![Cuenta en un alambre helicoidal](https://i.imgur.com/XXXXXXX.png)
 
 ## Problema 10 — Dos masas unidas por una cuerda y un cono
 ### Enunciado
@@ -113,6 +110,15 @@ Una partícula de masa $m$ está obligada a moverse, sin fricción, sobre una el
 Una partícula de masa $m$ sometida a la gravedad, se desliza sin fricción sobre la superficie de un paraboloide de revolución vertical cuya ecuación es $r^2=az$, donde $a$ es una constante positiva y $z$ es el eje vertical.
 
 ![Partícula sobre un paraboloide](https://i.imgur.com/laULijd.png)
+
+## Problema 13 — Cuentas unidas por un muelle en un aro giratorio
+### Enunciado
+
+Consideramos un sistema compuesto por dos partículas (cuentas de masa $m$), un alambre circular (aro de radio $R$) y un muelle (con constante elástica $k$ y longitud en equilibrio $2r_0$, donde $r_0<R$). Las cuentas están unidas por el muelle y se deslizan sin fricción sobre el aro. El sistema se representa en la figura, que también indica los ejes cartesianos $y$ y $z$ de un sistema de coordenadas cuyo origen está en el centro $O$ del aro. El plano $yz$ es horizontal y, consecuentemente, la gravedad actúa en la dirección del eje $x$. A todo momento, se impone que las dos cuentas tengan la misma coordenada $z$, la cual puede variar con el tiempo.
+
+Consideramos que el aro gira alrededor del eje $z$ del sistema de referencia inercial $\{O,(x,y,z)\}$ con una velocidad angular constante $\omega$.
+
+![Cuentas unidas por un muelle en un aro giratorio](https://i.imgur.com/PVB7b60.png)
 
 ## Uso
 
@@ -139,5 +145,6 @@ jupyter notebook
 ├── 09_HelicalWire.ipynb
 ├── 10_ConeStringMasses.ipynb
 ├── 11_EllipseSpring.ipynb
-└── 12_ParaboloidLagrange.ipynb
+├── 12_ParaboloidLagrange.ipynb
+└── 13_BeadsRotatingHoop.ipynb
 ```
