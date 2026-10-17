@@ -16,6 +16,8 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 8 | [Espacio de fases de una masa en caída libre](#problema-8--espacio-de-fases-de-una-masa-en-caída-libre) | [`08_FreeFallPhaseSpace.ipynb`](08_FreeFallPhaseSpace.ipynb) |
 | 9 | [Cuenta en un alambre helicoidal](#problema-9--cuenta-en-un-alambre-helicoidal) | [`09_HelicalWire.ipynb`](09_HelicalWire.ipynb) |
 | 10 | [Dos masas unidas por una cuerda y un cono](#problema-10--dos-masas-unidas-por-una-cuerda-y-un-cono) | [`10_ConeStringMasses.ipynb`](10_ConeStringMasses.ipynb) |
+| 11 | [Partícula sobre una elipse con muelle](#problema-11--partícula-sobre-una-elipse-con-muelle) | [`11_EllipseSpring.ipynb`](11_EllipseSpring.ipynb) |
+| 12 | [Partícula sobre un paraboloide](#problema-12--partícula-sobre-un-paraboloide) | [`12_ParaboloidLagrange.ipynb`](12_ParaboloidLagrange.ipynb) |
 
 ---
 
@@ -82,10 +84,14 @@ Escribir las ecuaciones de Hamilton para una masa $m$ obligada a moverse únicam
 - (c) La masa se lanza desde $x=X$ con momento inicial $p=P$: $x_0=X,\ p_0=P$.
 - (d) La masa se lanza desde $x=0$ con momento inicial $p=P$: $x_0=0,\ p_0=P$.
 
+![Espacio de fases de una masa en caída libre](https://i.imgur.com/XXXXXXX.png)
+
 ## Problema 9 — Cuenta en un alambre helicoidal
 ### Enunciado
 
 Consideramos un alambre, que permanece fijo, de forma helicoidal, $x=a\cos\theta$, $y=a\sin\theta$, $z=b\theta$, donde $\theta$ es un parámetro real y $a$, $b$ son constantes positivas. El eje $z$ está dirigido verticalmente hacia arriba. Una cuenta de masa $m$, sometida a la gravedad, puede deslizarse libremente en el alambre.
+
+![Cuenta en un alambre helicoidal](https://i.imgur.com/XXXXXXX.png)
 
 ## Problema 10 — Dos masas unidas por una cuerda y un cono
 ### Enunciado
@@ -93,6 +99,20 @@ Consideramos un alambre, que permanece fijo, de forma helicoidal, $x=a\cos\theta
 Consideramos un sistema sometido a la gravedad en el que dos partículas puntuales de masas $m_1=m_2$ están conectadas por una cuerda de longitud constante $\ell$. Despreciamos la masa de la cuerda y asumimos ausencia de fricción. La partícula de masa $m_2$ está obligada a permanecer sobre la superficie de un cono vertical de ángulo medio $\alpha$ y cuya punta $O$ se encuentra en el origen del sistema de coordenadas (ver figura). La cuerda pasa a través de un agujero en la punta $O$ del cono, de manera que la partícula de masa $m_1$ cuelga libremente dentro del cono.
 
 ![Dos masas unidas por una cuerda y un cono](https://i.imgur.com/U9MtsNT.png)
+
+## Problema 11 — Partícula sobre una elipse con muelle
+### Enunciado
+
+Una partícula de masa $m$ está obligada a moverse, sin fricción, sobre una elipse en un plano vertical. La ecuación de la elipse es $x=a\cos\theta$, $y=b\sin\theta$, donde $a$ y $b$ son dos constantes tales que $a\ge b>0$. El eje $y$ corresponde a la dirección vertical. La partícula está sometida a la gravedad y está unida al origen $O$ por un muelle de constante elástica $k$. La energía potencial del muelle se escribe $\frac12 kr^2$, donde $r$ es la distancia entre $O$ y la posición de la partícula.
+
+![Partícula sobre una elipse con muelle](https://i.imgur.com/CQBHk6z.png)
+
+## Problema 12 — Partícula sobre un paraboloide
+### Enunciado
+
+Una partícula de masa $m$ sometida a la gravedad, se desliza sin fricción sobre la superficie de un paraboloide de revolución vertical cuya ecuación es $r^2=az$, donde $a$ es una constante positiva y $z$ es el eje vertical.
+
+![Partícula sobre un paraboloide](https://i.imgur.com/laULijd.png)
 
 ## Uso
 
@@ -117,5 +137,7 @@ jupyter notebook
 ├── 07_HamiltonianCylinder.ipynb
 ├── 08_FreeFallPhaseSpace.ipynb
 ├── 09_HelicalWire.ipynb
-└── 10_ConeStringMasses.ipynb
+├── 10_ConeStringMasses.ipynb
+├── 11_EllipseSpring.ipynb
+└── 12_ParaboloidLagrange.ipynb
 ```
