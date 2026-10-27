@@ -19,6 +19,7 @@ Colección de problemas de mecánica clásica que se resuelven **numéricamente*
 | 11 | [Partícula sobre una elipse con muelle](#problema-11--partícula-sobre-una-elipse-con-muelle) | [`11_EllipseSpring.ipynb`](11_EllipseSpring.ipynb) |
 | 12 | [Partícula sobre un paraboloide](#problema-12--partícula-sobre-un-paraboloide) | [`12_ParaboloidLagrange.ipynb`](12_ParaboloidLagrange.ipynb) |
 | 13 | [Cuentas unidas por un muelle en un aro giratorio](#problema-13--cuentas-unidas-por-un-muelle-en-un-aro-giratorio) | [`13_BeadsRotatingHoop.ipynb`](13_BeadsRotatingHoop.ipynb) |
+| 14 | [Teoría de diagramas de fases](#problema-14--teoría-de-diagramas-de-fases) | [`14_PhaseDiagramTheory.ipynb`](14_PhaseDiagramTheory.ipynb) |
 
 ---
 
@@ -120,6 +121,20 @@ Consideramos que el aro gira alrededor del eje $z$ del sistema de referencia ine
 
 ![Cuentas unidas por un muelle en un aro giratorio](https://i.imgur.com/PVB7b60.png)
 
+## Problema 14 — Teoría de diagramas de fases
+### Enunciado
+
+Explicar qué es el **espacio de fases** de un sistema hamiltoniano y cómo se dibuja su diagrama de fases de tres formas distintas: despejando $p(q)$, mediante las curvas de nivel de $H(q,p)$ y integrando numéricamente las ecuaciones de Hamilton. Clasificar los puntos fijos (centros y sillas) a partir del Jacobiano y establecer la relación entre el potencial efectivo $U_{eff}$ y el diagrama de fases: puntos de retorno, región prohibida, órbitas ligadas y separatriz.
+
+Aplicar la teoría dibujando, para distintas energías, el potencial efectivo y el diagrama de fases de los siguientes sistemas:
+
+- **(a)** Una partícula de masa $m$ en el eje $x$ bajo el potencial $U(x)=-(x/a)^2U_0$ si $|x|\le a$ y $U=+\infty$ si $|x|>a$, con $E>0$, $E<0$ y $E=0$.
+- **(b)** Una partícula de masa $m$ en el espacio bajo el potencial $U(r)=-k/r$, con $\varphi=0$, $p_\theta$ constante y distintas energías $E<0$, $E=0$ y $E>0$. Representar las proyecciones $(r,p_r)$ y $(\theta,p_\theta)$ y la trayectoria real.
+- **(c)** Una cuenta de masa $m$ sobre un alambre helicoidal fijo $x=a\cos\theta$, $y=a\sin\theta$, $z=b\theta$ bajo la gravedad, con $\theta(0)=0$ y $\dot\theta(0)>0$.
+- **(d)** Una masa $m$ en caída libre con la coordenada $x$ medida hacia abajo, para las condiciones iniciales $(x_0,p_0)=(0,0),\,(X,0),\,(X,P),\,(0,P)$.
+
+Por último, calcular simbólicamente el paréntesis de Poisson $[A,H]$ con $A=x\dot y-y\dot x$ para el Lagrangiano $L=\frac12\left(\dot x^2/x+\dot y^2/y\right)$.
+
 ## Uso
 
 ```bash
@@ -146,5 +161,6 @@ jupyter notebook
 ├── 10_ConeStringMasses.ipynb
 ├── 11_EllipseSpring.ipynb
 ├── 12_ParaboloidLagrange.ipynb
-└── 13_BeadsRotatingHoop.ipynb
+├── 13_BeadsRotatingHoop.ipynb
+└── 14_PhaseDiagramTheory.ipynb
 ```
